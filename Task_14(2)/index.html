@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Event Update Page</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="heading text-center">Event-1</div>
+      <div class="available-seats text-center">
+        Number of available seats: 23
+      </div>
+      <div class="update-form-box">
+        <div class="row">
+          <div class="col-sm-6 col-md-6">
+            <img src="user_profile.jpg" class="img-fluid" alt="Photo" />
+            <!-- <img src="" alt="" width="500px" height="450px" /> -->
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="box">
+              <form>
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail4">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="Email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="inputNumber">Phone No:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputNumber"
+                    placeholder="Contact Number"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="seatRequirement">Number of seats</label>
+                  <select name="forSeats" id="seatRequirement">
+                    <option value="Select number of Seats">
+                      Select number of Seats
+                    </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="attendeeName">Name of Attendee 2</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="attendeeName"
+                    placeholder="Name of Attendee"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
